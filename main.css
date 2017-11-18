@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+*
+{
+	padding:0px;
+	margin:0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+[data-slides] {
+	background-image: url(img/bg.jpg); /* Default image. */
+	background-size: 2500px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	transition: background-image 1s linear;
+}
+
+/* Use additional CSS to control the `height` of `[data-slides]`, like so: */
+
+.test { height: 220px; }
+@media all and (min-width: 48em) {
+	.test { height: 1335px; }
+}
+
+[data-ff] {
+background-image: url(img/bgwrath.png); /* Default image. */
+	background-size: 220px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	transition: background-image 1s linear;
+}
+.efe { height: 220px; }
+@media all and (min-width: 48em) {
+	.efe { height: 220px; }
+}
+
+
+
+.wrapper
+{
+	margin:0px auto;
+	margin-top:20px;
+	width:1000px;
+}
+.text
+{
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	font-size:25;
+	text-align:center;
+}
+.text2
+{
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	font-size:15;
+	text-align:center;
+}
+
+
+
+.register
+{
+	width:100%;
+	height:860px;
+	background-color:rgba(255,255,255,0.7);
+	text-align:center;
+}
+input
+{
+	display:block;
+	outline:none;
+	border:none;
+	width:100%;
+	margin-bottom:5px;
+	padding:5px;
+	background-color:#353535;
+	color:#fff;
+}
+input[type=submit]
+{
+	transition:0.4s ease background-color;
+	cursor:pointer;
+}
+input[type=submit]:hover
+{
+	background-color:#444;
+}
